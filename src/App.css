@@ -1,38 +1,155 @@
-.App {
+/* Font Imports */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  background-color: crimson;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  color: azure;
+}
+
+.menu {
+  width: 700px;
+  height: 100%;
+  background-color: hsla(0, 0%, 0%, 0.7);
+  margin-top: 100px;
+}
+
+.menu-pies {
+  display: flex;
+  justify-content: center;
+}
+.pies {
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  margin: 5px;
+}
+.pies h3 {
+  font-family: "Quicksand", sans-serif;
+  color: hsla(0, 100%, 48%, 0.82);
+}
+h3 {
+  color: hsla(352, 97%, 49%, 0.83);
+}
+p {
+  font-family: "Oswald", sans-serif;
+  color: aliceblue;
+}
+.header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  font-size: 35px;
+  align-items: center;
+  box-shadow: 0 5px 10px 2px black;
+  text-shadow: 4px 4px black;
+}
+.delivery {
+  width: 100%;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+/* Utility Classes */
+.spacing {
+  margin: 5px;
+  padding: 10px;
+}
+.text-center {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text-sh {
+  text-shadow: 2px 2px 5px gray;
+}
+.font-one {
+  font-family: "Quicksand", sans-serif;
+}
+.font-two {
+  font-family: "Oswald", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Smaller Screen Adaptaions */ 
+@media only screen and (max-width: 600px) {
+  body {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: left;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .header {
+    display: flex;
+    justify-content: center;
+    height: 75px;
+    font-size: 15px;
+    align-items: center;
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+  .menu {
+    width: 100%;
+    background-color: hsla(0, 0%, 0%, 0.7);
+    margin-top: 75px;
+
+  }
+  .menu-pies {
+    display: flex;
+    flex-direction: column;
+  }
+  .pies {
+    width: 95%;
+  }
+  .delivery {
+    font-size: 16px;
+  }
+  .menu-create {
+    width: 95%;
+  }
+  footer {
+    font-size: 12px;
+    text-align: center;
   }
 }
