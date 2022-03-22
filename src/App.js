@@ -22,7 +22,7 @@ function App() {
             </div>
             <div className="pies">
               <h3>The Three Meats... $14.50 </h3>
-              <p>pepperoni, meatball, sausage</p>
+              <p>pepperoni, meatballs, and sausage.</p>
             </div>
             <div className="pies">
               <h3>The NY Supreme... $17.50</h3>
@@ -84,7 +84,7 @@ function App() {
           <p> A minimum order of $30 is required for all deliveries</p>
         </div>
       </div>
-      <footer className="font-two">
+      <footer className="font-two spacing">
         {" "}
         &copy; 2022 Pizzeria Marinara All Rights Reserved, Website by Javier
       </footer>
