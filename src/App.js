@@ -1,12 +1,14 @@
 import React from "react";
 import "./App.css";
+import Image from "./marinara.JPG";
 
 function App() {
   return (
     <div className="body">
       <div className="header">
-        <h1>Pizzeria Marinara</h1>
+       <h1>Pizzeria Marinara</h1>
       </div>
+      <div><img key={Image} src={Image} alt={""} className={"logo"}/></div>
       <div className="menu">
         <h1 className="spacing text-center text-sh font-one">Menu</h1>
         <hr style={{ width: "100%", color: "azure" }}></hr>

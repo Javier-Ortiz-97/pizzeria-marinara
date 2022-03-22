@@ -51,7 +51,7 @@ body {
   width: 700px;
   height: 100%;
   background-color: hsla(0, 0%, 0%, 0.7);
-  margin-top: 100px;
+  margin-top: -5px;
 }
 
 .menu-pies {
@@ -93,6 +93,7 @@ p {
   text-align: center;
   padding-top: 15px;
   padding-bottom: 20px;
+  color: azure;
 }
 
 /* Utility Classes */
@@ -113,6 +114,10 @@ p {
   font-family: "Oswald", sans-serif;
 }
 
+.logo{
+  margin-top: 100px;
+  width: 700px;
+}
 /* Smaller Screen Adaptaions */ 
 @media only screen and (max-width: 600px) {
   body {
@@ -133,8 +138,7 @@ p {
   .menu {
     width: 100%;
     background-color: hsla(0, 0%, 0%, 0.7);
-    margin-top: 75px;
-
+    margin-top: -5px;
   }
   .menu-pies {
     display: flex;
@@ -152,5 +156,9 @@ p {
   footer {
     font-size: 12px;
     text-align: center;
+  }
+  .logo {
+    margin-top: 75px;
+    width: 100%;
   }
 }
