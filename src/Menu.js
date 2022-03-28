@@ -1,7 +1,10 @@
 const Menu = () => {
   return (
     <div className="menu">
-      <h1 className="spacing text-center text-sh font-one">Menu</h1>
+    <div className="spacing text-center text-sh font-one">
+      <h1>Menu</h1>
+      <h3 style={{color: "azure"}}>12" New York Style Pizzas</h3>
+      </div>
       <hr style={{ width: "100%", color: "azure" }}></hr>
       <div className="menu-pies">
         <div>

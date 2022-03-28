@@ -1,7 +1,7 @@
 /* Font Imports */
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 /* Box sizing rules */
 *,
 *::before,
@@ -40,6 +40,7 @@ picture {
 
 body {
   background-color: crimson;
+  /* background-color: red; */
   display: flex;
   text-align: center;
   justify-content: center;
@@ -53,8 +54,8 @@ body {
   background-color: hsla(0, 0%, 0%, 0.7);
   margin-top: -5px;
   box-shadow: 0px 0px 20px black;
+  margin-top: 105px;
 }
-
 .menu-pies {
   display: flex;
   justify-content: center;
@@ -84,11 +85,13 @@ p {
   justify-content: center;
   height: 100px;
   width: 100%;
-  font-size: 35px;
+  font-size: 30px;
   align-items: center;
   box-shadow: 0 5px 10px 2px black;
   text-shadow: 4px 4px black;
+  font-family: "Lobster", cursive;
 }
+
 .delivery {
   width: 100%;
   text-align: center;
@@ -97,7 +100,7 @@ p {
   color: azure;
 }
 
-/* Utility Classes */
+/* Some Utility Classes */
 .spacing {
   margin: 5px;
   padding: 10px;
@@ -116,8 +119,8 @@ p {
 }
 
 .logo {
-  margin-top: 100px;
-  width: 700px;
+  width: 130px;
+  height: 100px;
 }
 /* Smaller Screen Adaptaions */
 @media only screen and (max-width: 600px) {
@@ -139,9 +142,9 @@ p {
   .menu {
     width: 90%;
     background-color: hsla(0, 0%, 0%, 0.7);
-    margin-top: -5px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 80px;
   }
   .menu-pies {
     display: flex;
@@ -161,9 +164,7 @@ p {
     text-align: center;
   }
   .logo {
-    margin-top: 75px;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100px;
+    height: 75px;
   }
 }

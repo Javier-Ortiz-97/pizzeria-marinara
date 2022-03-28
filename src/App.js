@@ -1,16 +1,14 @@
 import React from "react";
 import Menu from "./Menu";
 import "./App.css";
-import Logo from "./marinara.JPG";
+import Logo from "./marinara logo.png";
 
 function App() {
   return (
     <div className="body">
       <div className="header">
+      <img key={Logo} src={Logo} alt={""} className={"logo"} />
         <h1>Pizzeria Marinara</h1>
-      </div>
-      <div>
-        <img key={Logo} src={Logo} alt={""} className={"logo"} />
       </div>
       <Menu />
       <footer className="font-two spacing">
