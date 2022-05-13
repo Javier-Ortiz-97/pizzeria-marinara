@@ -1,7 +1,7 @@
 import React from "react";
 import Menu from "./Menu";
-import "./App.css";
-import Logo from "./marinara logo.png";
+import "./App.css"; 
+import Logo from "./images/marinara logo.png";
 
 function App() {
   return (

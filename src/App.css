@@ -70,9 +70,9 @@ body {
   font-family: "Quicksand", sans-serif;
   color: hsla(0, 100%, 48%, 0.82);
 }
-h3 {
+/* h3 {
   color: hsla(352, 97%, 49%, 0.83);
-}
+} */
 p {
   font-family: "Oswald", sans-serif;
   color: aliceblue;
@@ -109,7 +109,7 @@ p {
   text-align: center;
 }
 .text-sh {
-  text-shadow: 2px 2px 5px gray;
+  text-shadow: 2px 2px 5px black;
 }
 .font-one {
   font-family: "Quicksand", sans-serif;
@@ -117,10 +117,57 @@ p {
 .font-two {
   font-family: "Oswald", sans-serif;
 }
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.center-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.red-font-color{
+  color: hsla(0, 100%, 48%, 0.82);
+  /* color: red; */
 
+}
 .logo {
   width: 130px;
   height: 100px;
+}
+.square {
+  height: 150px;
+  width: 150px;
+  border: 1px solid wheat;
+
+}
+.craft-pizza {
+  display: flex;
+  flex-wrap: wrap;
+}
+.craft-slices img{
+  height: 80%;
+  width: 100%;
+}
+
+.craft-slices {
+  width: 30%;
+  height: 300px;
+  margin: 10px; 
+  justify-content: center;
+  color: azure;
+}
+
+.park {
+  width: 700px;
+  height: 500px;
+  /* background-color: black; */
+  margin-top: 120px;
+  color: azure;
 }
 /* Smaller Screen Adaptaions */
 @media only screen and (max-width: 600px) {
@@ -166,5 +213,15 @@ p {
   .logo {
     width: 100px;
     height: 75px;
+  }
+  
+  .craft-slices img{
+    width: 95%;
+    height: 70%;
+  }
+  .craft-slices {
+    width: 50%;
+    margin: 0;
+   margin-bottom: 10px;
   }
 }
