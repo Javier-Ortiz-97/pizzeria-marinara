@@ -1,4 +1,3 @@
-
 const Menu = () => {
   return (
     <div className="menu">
@@ -6,7 +5,7 @@ const Menu = () => {
         <h1>Menu</h1>
         <h3 style={{ color: "azure" }}>12" New York Style Pizzas</h3>
       </div>
-      <hr style={{ width: "100%", color: "azure"}}></hr>
+      <hr style={{ width: "100%", color: "azure" }}></hr>
       <div className="menu-pies">
         <div>
           <h2 className="spacing text-sh font-one">Red Pies</h2>
@@ -35,6 +34,13 @@ const Menu = () => {
             <h3>Matty's Special... $16</h3>
             <p>Italian Sausage, red bell peppers, and garlic.</p>
           </div>
+          <div className="pies">
+            <h3>The Ultimate Veggie Pie... $24</h3>
+            <p>
+              Spinach, tomato, garlic, mushrooms, green bell peppers, onions,
+              and black olives.
+            </p>
+          </div>
         </div>
         <div>
           <h2 className="spacing text-sh font-one">White Pies</h2>
@@ -57,9 +63,13 @@ const Menu = () => {
           <div className="pies">
             <h3>The Tony Soprano... $16</h3>
             <p>
-              mozzarella, ricotta, romano, garlic, Mike's hot honey, and hot gabagool seasoned
-              with Italian parsley.
+              mozzarella, ricotta, romano, garlic, Mike's hot honey, and hot
+              gabagool seasoned with Italian parsley.
             </p>
+          </div>
+          <div className="pies">
+            <h3>The Margherita... $16</h3>
+            <p>Tomato, basil, and garlic</p>
           </div>
         </div>
       </div>
@@ -68,10 +78,9 @@ const Menu = () => {
           Create Your Own Pie... $10 plus $2.00 per topping
         </h3>
         <p>
-          Toppings: pepperoni, sausage, meatball, bacon, grape tomatoes, onions,
-          mushrooms, green bell peppers, red bell peppers, spinach, black
-          olives, jalapeños, garlic, ricotta, pesto, basil, gabagool, eggplant,
-          and extra cheese.{" "}
+          Toppings: pepperoni, sausage, meatball, gabagool, red peppers, green peppers,
+          onions, garlic, spinach, tomato, jalapenos, mushrooms, black olives, basil,
+          Italian parsley, extra cheese, hot honey.{" "}
         </p>
       </div>
       <hr style={{ width: "100%", color: "azure" }}></hr>

@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 /* Box sizing rules */
 *,
 *::before,
@@ -52,7 +53,6 @@ body {
   width: 700px;
   height: 100%;
   background-color: hsla(0, 0%, 0%, 0.7);
-  margin-top: -5px;
   box-shadow: 0px 0px 20px black;
   margin-top: 105px;
 }
@@ -70,9 +70,7 @@ body {
   font-family: "Quicksand", sans-serif;
   color: hsla(0, 100%, 48%, 0.82);
 }
-/* h3 {
-  color: hsla(352, 97%, 49%, 0.83);
-} */
+
 p {
   font-family: "Oswald", sans-serif;
   color: aliceblue;
@@ -117,6 +115,9 @@ p {
 .font-two {
   font-family: "Oswald", sans-serif;
 }
+.font-three {
+  font-family: "Poppins", sans-serif;
+}
 .row {
   display: flex;
   flex-direction: row;
@@ -130,10 +131,9 @@ p {
   justify-content: center;
   align-items: center;
 }
-.red-font-color{
+.red-font-color {
   color: hsla(0, 100%, 48%, 0.82);
   /* color: red; */
-
 }
 .logo {
   width: 130px;
@@ -143,13 +143,12 @@ p {
   height: 150px;
   width: 150px;
   border: 1px solid wheat;
-
 }
 .craft-pizza {
   display: flex;
   flex-wrap: wrap;
 }
-.craft-slices img{
+.craft-slices img {
   height: 80%;
   width: 100%;
 }
@@ -157,7 +156,7 @@ p {
 .craft-slices {
   width: 30%;
   height: 300px;
-  margin: 10px; 
+  margin: 10px;
   justify-content: center;
   color: azure;
 }
@@ -178,7 +177,7 @@ p {
 .javi-logo {
   height: 3vh;
   width: 10vh;
-  margin: 4px; 
+  margin: 4px;
 }
 /* Smaller Screen Adaptaions */
 @media only screen and (max-width: 600px) {
@@ -225,15 +224,15 @@ p {
     width: 100px;
     height: 75px;
   }
-  
-  .craft-slices img{
+
+  .craft-slices img {
     width: 95%;
     height: 70%;
   }
   .craft-slices {
     width: 50%;
     margin: 0;
-   margin-bottom: 10px;
+    margin-bottom: 10px;
   }
 
   .javi-logo {
@@ -241,4 +240,14 @@ p {
     height: 2vh;
     width: 8vh;
   }
+}
+
+.welcome-page {
+  color: azure;
+  margin-top: 105px;
+  min-height: 80vh;
+}
+
+.welcome-page h1 {
+  font-size: 25px;
 }
