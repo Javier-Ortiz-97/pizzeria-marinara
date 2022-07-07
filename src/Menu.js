@@ -80,7 +80,7 @@ const Menu = () => {
         <p>
           Toppings: pepperoni, sausage, meatball, gabagool, red peppers, green peppers,
           onions, garlic, spinach, tomato, jalapenos, mushrooms, black olives, basil,
-          Italian parsley, extra cheese, hot honey.{" "}
+          Italian parsley, ricotta, extra cheese, and hot honey.{" "}
         </p>
       </div>
       <hr style={{ width: "100%", color: "azure" }}></hr>
