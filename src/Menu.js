@@ -79,7 +79,7 @@ const Menu = () => {
         </h3>
         <p>
           Toppings: pepperoni, sausage, meatball, gabagool, red peppers, green peppers,
-          onions, garlic, spinach, tomato, jalapenos, mushrooms, black olives, basil,
+          onions, garlic, spinach, tomato, jalapeños, mushrooms, black olives, basil,
           Italian parsley, ricotta, extra cheese, and hot honey.{" "}
         </p>
       </div>
