@@ -26,7 +26,7 @@ const HomePage = () => {
 
         <h2 className="text-center text-sh2">
           Matt founded Pizzeria Marinara SD and is the genius behind our delicious
-          pies. He's a proffesional pizza chef with over 20 years of experience
+          pies. He's a professional pizza chef with over 20 years of experience
           making delicious pies.
         </h2>
       </div>
