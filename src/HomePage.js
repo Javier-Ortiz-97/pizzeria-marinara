@@ -1,4 +1,6 @@
 import PaperMenu from "./images/papermenu.png";
+import menuOne from "./images/1.jpg";
+import menuTwo from "./images/2.jpg";
 import matty from "./images/matty.png";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { BsFillTelephoneFill, BsInstagram } from "react-icons/bs";
@@ -35,7 +37,9 @@ const HomePage = () => {
       <div className="menu-info font-three text-sh2">
         <h1>Our Menu</h1>
         <hr></hr>
-        <img key={PaperMenu} src={PaperMenu} alt="" />
+        <img key={menuOne} src={menuOne} alt="" />
+        <img key={menuTwo} src={menuTwo} alt="" />
+
       </div>
 
       <div className="matt-info font-three text-sh2">
