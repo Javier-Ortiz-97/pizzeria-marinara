@@ -1,4 +1,3 @@
-import PaperMenu from "./images/papermenu.png";
 import menuOne from "./images/1.jpg";
 import menuTwo from "./images/2.jpg";
 import matty from "./images/matty.png";
